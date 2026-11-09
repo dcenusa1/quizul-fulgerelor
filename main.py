@@ -38,4 +38,13 @@ categorii = {
 }
 
 nume = input("Cum te numesti? > ")
-print(f" Salut, {nume}! Alege o categorie: ")
+while True:
+    print(f" Salut, {nume}! Alege o categorie: ")
+    print("1.Sport")
+    print("2.Animale")
+    print("3.Jocuri video")
+    print("4.Stiinta")
+    print("0.Exit")
+    alegere = input("Alege o categorie ")
+    if alegere == "0":
+        break
