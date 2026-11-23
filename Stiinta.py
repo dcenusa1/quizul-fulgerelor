@@ -90,121 +90,121 @@ while True:
     print("Ai ales quiz-ul de știință. Răspunde la următoarele întrebări:")
     r=0
     print("Care este formula chimică a apei?")
-    if input("Răspuns: ") == "H2O":
+    if input("Răspuns: ").lower() == "H2O":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este H2O.")
     print("Ce planetă este cunoscută ca Planeta Roșie?")
-    if input("Răspuns: ") == "Marte":
+    if input("Răspuns: ").lower() == "marte":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Marte.")
     print("Care este unitatea de măsură pentru electricitate?")
-    if input("Răspuns: ") == "Ampere":
+    if input("Răspuns: ").lower() == "ampere":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Ampere.")
     print("Ce gaz respirăm pentru a supraviețui?")
-    if input("Răspuns: ") == "Oxigen":
+    if input("Răspuns: ").lower() == "oxigen":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Oxigen.")
     print("Care este cel mai mare organ al corpului uman?")
-    if input("Răspuns: ") == "Pielea":
+    if input("Răspuns: ").lower() == "pielea":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Pielea.")
     print("Ce planetă este cea mai apropiată de Soare?")
-    if input("Răspuns: ") == "Mercur":
+    if input("Răspuns: ").lower() == "mercur":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Mercur.")
     print("Care este simbolul chimic pentru aur?")
-    if input("Răspuns: ") == "Au":
+    if input("Răspuns: ").lower() == "au":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Au.")
     print("Ce organ produce insulina în corpul uman?")
-    if input("Răspuns: ") == "Pancreasul":
+    if input("Răspuns: ").lower() == "pancreasul":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Pancreasul.")
     print("Care este cel mai mare mamifer terestru?")
-    if input("Răspuns: ") == "Elefantul":
+    if input("Răspuns: ").lower() == "elefantul":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Elefantul.")
     print("Ce gaz este esențial pentru fotosinteză?")
-    if input("Răspuns: ") == "Dioxid de carbon":
+    if input("Răspuns: ").lower() == "dioxid de carbon":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Dioxid de carbon.")
     print("Care este cel mai rapid animal terestru?")
-    if input("Răspuns: ") == "Ghepardul":
+    if input("Răspuns: ").lower() == "ghepardul":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Ghepardul.")
     print("Ce planetă are inele vizibile?")
-    if input("Răspuns: ") == "Saturn":
+    if input("Răspuns: ").lower() == "saturn":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Saturn.")
     print("Care este cel mai mare ocean de pe Pământ?")
-    if input("Răspuns: ") == "Oceanul Pacific":
+    if input("Răspuns: ").lower() == "oceanul pacific":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Oceanul Pacific.")
     print("Ce organ este responsabil pentru pomparea sângelui în corp?")
-    if input("Răspuns: ") == "Inima":
+    if input("Răspuns: ").lower() == "inima":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Inima.")
     print("Care este cel mai mic os din corpul uman?")
-    if input("Răspuns: ") == "Stapezul":
+    if input("Răspuns: ").lower() == "stapezul":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Stapezul.")
     print("Ce gaz este principalul component al atmosferei Pământului?")
-    if input("Răspuns: ") == "Azot":
+    if input("Răspuns: ").lower() == "azot":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Azot.")
     print("Care este cel mai mare mamifer marin?")
-    if input("Răspuns: ") == "Balena albastră":
+    if input("Răspuns: ").lower() == "balena albastră":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Balena albastră.")
     print("Ce organ produce bilă în corpul uman?")
-    if input("Răspuns: ") == "Ficatul":
+    if input("Răspuns: ").lower() == "ficatul":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Ficatul.")
     print("Care este cel mai rapid pasăre din lume?")
-    if input("Răspuns: ") == "Șoimul călător":
+    if input("Răspuns: ").lower() == "șoimul călător":
         print("Răspuns corect!")
         r=r+1
     else:
         print("Răspuns greșit. Răspunsul corect este Șoimul călător.")
     print("Ce planetă este cunoscută pentru culoarea sa albastră?")
-    if input("Răspuns: ") == "Neptun":
+    if input("Răspuns: ").lower() == "neptun":
         print("Răspuns corect!")
         r=r+1
     else:
